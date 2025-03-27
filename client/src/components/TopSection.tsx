@@ -1,4 +1,4 @@
-import { ArrowRight, BarChart2, Zap, Target } from "lucide-react";
+import { BarChart2, Zap, Target } from "lucide-react";
 
 export default function TopSection() {
   return (
@@ -18,13 +18,6 @@ export default function TopSection() {
             Discover proven methods to enhance your marketing campaigns, increase ROI, and 
             drive more conversions through data-driven approaches.
           </p>
-          
-          <a 
-            href="#newsletter" 
-            className="inline-flex items-center py-3 px-6 bg-[#3949AB] text-white font-medium rounded-md hover:bg-[#2C3A8C] transition-colors duration-200"
-          >
-            Get Started <ArrowRight className="ml-2 h-4 w-4" />
-          </a>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
