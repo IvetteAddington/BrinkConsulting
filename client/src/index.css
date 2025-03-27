@@ -48,10 +48,10 @@
   }
   
   .hover-lift {
-    @apply transition-transform duration-300;
+    @apply transition-all duration-300;
   }
   
   .hover-lift:hover {
-    @apply transform -translate-y-1;
+    @apply transform -translate-y-1 shadow-md;
   }
 }

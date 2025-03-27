@@ -44,20 +44,20 @@ export default function Header() {
                 Home
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#3949AB] transition-all duration-300 group-hover:w-full"></span>
               </Link>
-              <a 
-                href="#about" 
+              <Link 
+                href="/about" 
                 className="text-sm font-medium hover:text-[#3949AB] transition-colors relative group"
               >
                 About
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#3949AB] transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a 
-                href="#newsletter" 
+              </Link>
+              <Link 
+                href="/newsletter" 
                 className="text-sm font-medium hover:text-[#3949AB] transition-colors relative group"
               >
                 Newsletter
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#3949AB] transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </Link>
               <a 
                 href="#contact" 
                 className="text-sm font-medium hover:text-[#3949AB] transition-colors relative group"
@@ -84,12 +84,12 @@ export default function Header() {
             </button>
             
             {/* Desktop CTA button */}
-            <a 
-              href="#newsletter"
+            <Link 
+              href="/newsletter"
               className="hidden md:block py-2.5 px-6 bg-gradient-to-r from-[#3949AB] to-[#6979C9] text-white text-sm font-medium rounded-lg hover:shadow-lg transition-all duration-300 ml-4"
             >
               Subscribe
-            </a>
+            </Link>
           </div>
         </div>
         
@@ -100,18 +100,18 @@ export default function Header() {
               <Link href="/" className="text-sm font-medium text-[#1A1A1A] hover:text-[#3949AB] transition-colors px-2 py-2 hover:bg-gray-50 rounded-md">
                 Home
               </Link>
-              <a 
-                href="#about" 
+              <Link 
+                href="/about" 
                 className="text-sm font-medium text-[#1A1A1A] hover:text-[#3949AB] transition-colors px-2 py-2 hover:bg-gray-50 rounded-md"
               >
                 About
-              </a>
-              <a 
-                href="#newsletter" 
+              </Link>
+              <Link 
+                href="/newsletter" 
                 className="text-sm font-medium text-[#1A1A1A] hover:text-[#3949AB] transition-colors px-2 py-2 hover:bg-gray-50 rounded-md"
               >
                 Newsletter
-              </a>
+              </Link>
               <a 
                 href="#contact" 
                 className="text-sm font-medium text-[#1A1A1A] hover:text-[#3949AB] transition-colors px-2 py-2 hover:bg-gray-50 rounded-md"
@@ -120,15 +120,15 @@ export default function Header() {
               </a>
               
               {/* Mobile CTA button */}
-              <a 
-                href="#newsletter"
+              <Link 
+                href="/newsletter"
                 className="py-3 px-4 bg-gradient-to-r from-[#3949AB] to-[#6979C9] text-white text-sm font-medium rounded-lg hover:shadow-md transition-all duration-300 w-full text-center mt-2 flex items-center justify-center"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 Subscribe to Newsletter
-              </a>
+              </Link>
             </nav>
           </div>
         )}
