@@ -18,8 +18,8 @@ export default function TopSection() {
           </div>
           
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[#1A1A1A] leading-tight">
-            Learn 10 Strategies to<br />
-            <span className="bg-gradient-to-r from-[#3949AB] to-[#6979C9] bg-clip-text text-transparent">Optimize Your Campaigns</span>
+            Elevate Your Marketing<br />
+            <span className="bg-gradient-to-r from-[#3949AB] to-[#6979C9] bg-clip-text text-transparent">With Campaign Optimization</span>
           </h1>
           
           <p className="text-[#1A1A1A]/80 max-w-xl mx-auto mb-10 text-lg">
