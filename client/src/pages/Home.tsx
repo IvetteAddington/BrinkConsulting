@@ -1,18 +1,20 @@
 
 import Header from "@/components/Header";
 import TopSection from "@/components/TopSection";
-import BottomSection from "@/components/BottomSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import AboutSection from "@/components/AboutSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <TopSection />
-      <BottomSection />
-      <NewsletterSection />
-      <AboutSection />
+      <main className="flex-grow">
+        <TopSection />
+        <AboutSection />
+        <NewsletterSection />
+      </main>
+      <Footer />
     </div>
   );
 }
