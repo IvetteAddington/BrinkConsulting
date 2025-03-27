@@ -16,11 +16,11 @@ export default function About() {
               <span className="inline-block h-1 w-5 bg-[#3949AB]/60"></span>
             </div>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[#1A1A1A]">
-              About <span className="text-gradient">Our Company</span>
+              About Our <span className="text-gradient">Approach</span>
             </h1>
             <p className="text-[#1A1A1A]/70 max-w-2xl mx-auto text-lg leading-relaxed mb-8">
-              We are dedicated to helping businesses achieve their marketing goals through 
-              data-driven campaign optimization and strategic insights.
+              Our data-driven methodology helps businesses of all sizes improve their 
+              marketing performance through carefully optimized campaigns.
             </p>
           </div>
         </div>
