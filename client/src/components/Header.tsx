@@ -31,10 +31,10 @@ export default function Header() {
           <div className="flex items-center space-x-8">
             <Link href="/" className="flex items-center space-x-2">
               <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-[#3949AB] to-[#6979C9] flex items-center justify-center shadow-lg">
-                <span className="font-bold text-white">CO</span>
+                <span className="font-bold text-white">BI</span>
               </div>
               <span className="font-serif text-xl font-bold text-[#1A1A1A]">
-                CampaignOptimizer
+                Brink AI Consulting
               </span>
             </Link>
             
