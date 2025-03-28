@@ -31,7 +31,7 @@ export default function Header() {
           <div className="flex items-center space-x-8">
             <Link href="/" className="flex items-center space-x-2">
               <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-[#3949AB] to-[#6979C9] flex items-center justify-center shadow-lg">
-                <span className="font-bold text-white">BI</span>
+                <span className="font-bold text-white"></span>
               </div>
               <span className="font-serif text-xl font-bold text-[#1A1A1A]">
                 Brink AI Consulting
@@ -44,6 +44,7 @@ export default function Header() {
                 Home
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#3949AB] transition-all duration-300 group-hover:w-full"></span>
               </Link>
+              {false && (
               <Link 
                 href="/about" 
                 className="text-sm font-medium hover:text-[#3949AB] transition-colors relative group"
@@ -51,6 +52,7 @@ export default function Header() {
                 About
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#3949AB] transition-all duration-300 group-hover:w-full"></span>
               </Link>
+              )}
               <Link 
                 href="/newsletter" 
                 className="text-sm font-medium hover:text-[#3949AB] transition-colors relative group"

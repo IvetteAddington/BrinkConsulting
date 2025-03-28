@@ -67,14 +67,14 @@ export default function NewsletterSection() {
         </div>
         
         <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-[#1A1A1A]">
-          Subscribe to Our <span className="text-[#3949AB]">Newsletter</span>
+          Subscribe <span className="text-[#3949AB]">Here</span>
         </h2>
-        
+        {false && (
         <p className="text-[#1A1A1A]/70 max-w-xl mx-auto mb-10 text-lg leading-relaxed">
           Stay updated with the latest trends and strategies in campaign optimization. 
           Our newsletter is sent weekly and includes exclusive insights and case studies.
         </p>
-        
+        )}
         <form onSubmit={handleSubmit(onSubmit)} className="max-w-md mx-auto">
           <div className="bg-white p-3 rounded-xl shadow-lg">
             <div className="flex flex-col md:flex-row gap-3">
