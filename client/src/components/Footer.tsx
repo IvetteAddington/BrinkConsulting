@@ -140,17 +140,7 @@ export default function Footer() {
           <p className="text-white/50 text-sm">
             &copy; {currentYear} Brink AI Consulting. All rights reserved.
           </p>
-          <div className="flex mt-6 md:mt-0 space-x-8">
-            <a href="#" className="text-white/50 hover:text-white text-sm transition-colors duration-300">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-white/50 hover:text-white text-sm transition-colors duration-300">
-              Terms of Service
-            </a>
-            <a href="#" className="text-white/50 hover:text-white text-sm transition-colors duration-300">
-              Sitemap
-            </a>
-          </div>
+          
         </div>
       </div>
     </footer>

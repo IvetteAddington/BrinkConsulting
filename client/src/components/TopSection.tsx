@@ -1,4 +1,4 @@
-import { BarChart2, Zap, Target } from "lucide-react";
+import { Book, Workflow, Target } from "lucide-react";
 
 export default function TopSection() {
   return (
@@ -35,7 +35,7 @@ export default function TopSection() {
           {/* Card 1 */}
           <div className="bg-white rounded-xl shadow-lg p-8 transform hover:-translate-y-1 transition-all duration-300 border border-gray-100">
             <div className="bg-gradient-to-br from-[#3949AB] to-[#6979C9] p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 shadow-md">
-              <BarChart2 className="text-white h-6 w-6" />
+              <Book className="text-white h-6 w-6" />
             </div>
             <h3 className="font-serif text-xl font-bold mb-3 text-[#1A1A1A]">
               Learn AI with Confidence
@@ -49,7 +49,7 @@ export default function TopSection() {
           {/* Card 2 */}
           <div className="bg-white rounded-xl shadow-lg p-8 transform hover:-translate-y-1 transition-all duration-300 border border-gray-100">
             <div className="bg-gradient-to-br from-[#3949AB] to-[#6979C9] p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 shadow-md">
-              <Zap className="text-white h-6 w-6" />
+              <Workflow className="text-white h-6 w-6" />
             </div>
             <h3 className="font-serif text-xl font-bold mb-3 text-[#1A1A1A]">
               AI Integration
