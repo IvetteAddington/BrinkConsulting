@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://ivetteaddington.github.io/BrinkConsultingWebsite",
+  "homepage": "https://ivetteaddington.github.io/BrinkConsulting",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
