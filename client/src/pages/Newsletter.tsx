@@ -4,21 +4,21 @@ import Footer from "@/components/Footer";
 
 // Optional: Could be fetched from a CMS or file in the future
 const archivedNewsletters = [
-  {
-    title: "How to Think About AI in 2024",
-    date: "March 2024",
-    link: "/newsletter/march-2024",
-  },
-  {
-    title: "Productivity Myths AI Can Fix",
-    date: "February 2024",
-    link: "/newsletter/february-2024",
-  },
-  {
-    title: "Your First AI Workflow",
-    date: "January 2024",
-    link: "/newsletter/january-2024",
-  },
+  // {
+  //   title: "How to Think About AI in 2024",
+  //   date: "March 2024",
+  //   link: "/newsletter/march-2024",
+  // },
+  // {
+  //   title: "Productivity Myths AI Can Fix",
+  //   date: "February 2024",
+  //   link: "/newsletter/february-2024",
+  // },
+  // {
+  //   title: "Your First AI Workflow",
+  //   date: "January 2024",
+  //   link: "/newsletter/january-2024",
+  // },
 ];
 
 export default function Newsletter() {
