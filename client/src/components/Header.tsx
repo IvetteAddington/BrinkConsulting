@@ -44,15 +44,6 @@ export default function Header() {
                 Home
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#3949AB] transition-all duration-300 group-hover:w-full"></span>
               </Link>
-              {false && (
-              <Link 
-                href="/about" 
-                className="text-sm font-medium hover:text-[#3949AB] transition-colors relative group"
-              >
-                About
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#3949AB] transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-              )}
               <Link 
                 href="/newsletter" 
                 className="text-sm font-medium hover:text-[#3949AB] transition-colors relative group"
@@ -84,10 +75,7 @@ export default function Header() {
                 <Menu className="h-5 w-5" />
               )}
             </button>
-            
             {/* Desktop CTA button */}
-            
-            
           </div>
         </div>
         
@@ -97,12 +85,6 @@ export default function Header() {
             <nav className="flex flex-col space-y-4">
               <Link href="/" className="text-sm font-medium text-[#1A1A1A] hover:text-[#3949AB] transition-colors px-2 py-2 hover:bg-gray-50 rounded-md">
                 Home
-              </Link>
-              <Link 
-                href="/about" 
-                className="text-sm font-medium text-[#1A1A1A] hover:text-[#3949AB] transition-colors px-2 py-2 hover:bg-gray-50 rounded-md"
-              >
-                About
               </Link>
               <Link 
                 href="/newsletter" 
@@ -116,9 +98,6 @@ export default function Header() {
               >
                 Contact
               </a>
-              
-              {/* Mobile CTA button */}
-              
             </nav>
           </div>
         )}
