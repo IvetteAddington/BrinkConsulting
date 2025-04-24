@@ -4,11 +4,11 @@ import Footer from "@/components/Footer";
 
 // Optional: Could be fetched from a CMS or file in the future
 const archivedNewsletters = [
-  // {
-  //   title: "How to Think About AI in 2024",
-  //   date: "March 2024",
-  //   link: "/newsletter/march-2024",
-  // },
+   {
+     title: "How I Used AI to Build My Website in 15 Minutes (and Saved $5K)",
+     date: "April 11, 2024",
+     link: "https://substack.com/home/post/p-160286159?source=queue",
+   },
   // {
   //   title: "Productivity Myths AI Can Fix",
   //   date: "February 2024",
