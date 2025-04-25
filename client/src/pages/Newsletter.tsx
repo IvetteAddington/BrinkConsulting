@@ -52,7 +52,7 @@ export default function Newsletter() {
             <ul className="space-y-6">
               {archivedNewsletters.map((issue, idx) => (
                 <li key={idx} className="border border-gray-100 p-6 rounded-xl hover:shadow transition-all">
-                  <a href={issue.link} className="text-[#3949AB] font-semibold text-lg hover:underline">
+                  <a target="_blank" href={issue.link} className="text-[#3949AB] font-semibold text-lg hover:underline">
                     {issue.title}
                   </a>
                   <p className="text-sm text-[#1A1A1A]/60 mt-1">{issue.date}</p>
