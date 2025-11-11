@@ -41,8 +41,8 @@ export default function TopSection() {
               Learn AI with Confidence
             </h3>
             <p className="text-[#1A1A1A]/70 leading-relaxed">
-              Courses that make AI feel practical and within reach. From Gen AI to prompting and agents,
-              you’ll walk away with the clarity and confidence to start using AI in your everyday work.
+              Workshops that make AI feel practical and within reach. 
+              You’ll walk away with the clarity and confidence to start using AI in your everyday work.
             </p>
           </div>
 

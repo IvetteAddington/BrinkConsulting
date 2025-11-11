@@ -19,11 +19,11 @@ export default function Footer() {
               <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-[#3949AB] to-[#6979C9] flex items-center justify-center mr-3 shadow-lg">
                 <span className="font-bold text-white"></span>
               </div>
-              <h3 className="font-serif text-xl font-bold text-white">Brink AI Consulting</h3>
+              <h3 className="font-serif text-xl font-bold text-white">Addington AI Consulting</h3>
             </div>
 
             <p className="text-white/70 text-sm leading-relaxed mb-6">
-              Wondering what AI could actually <em>do</em> for your business? Let’s talk—your free strategy session’s on us.
+              Wondering what AI could actually <em>do</em> for your business? Let’s talk—your strategy session’s on us.
             </p>
 
             <div className="flex space-x-4">
