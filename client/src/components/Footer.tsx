@@ -139,7 +139,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/50 text-sm">
-            &copy; {currentYear} Brink AI Consulting. All rights reserved.
+            &copy; {currentYear} Addington AI Consulting. All rights reserved.
           </p>
           
         </div>
