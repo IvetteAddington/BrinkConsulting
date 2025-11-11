@@ -34,7 +34,7 @@ export default function Header() {
                 <span className="font-bold text-white"></span>
               </div>
               <span className="font-serif text-xl font-bold text-[#1A1A1A]">
-                Brink AI Consulting
+                Addington AI Consulting
               </span>
             </Link>
             
