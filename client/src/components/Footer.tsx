@@ -114,7 +114,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="text-white/70 text-sm flex items-start">
                 <Mail size={16} className="text-[#3949AB] mr-3 mt-0.5 shrink-0" />
-                <span>test</span>
+                <span>ivette@addingtonaiconsulting.com</span>
               </li>
               {false && (
                 <>
