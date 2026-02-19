@@ -60,18 +60,22 @@ export default function Footer() {
                   Home
                 </Link>
               </li>
-              <li>
-                <a href="#about" className="text-white/70 hover:text-white text-sm transition-colors duration-300 flex items-center">
-                  <span className="h-1 w-1 bg-[#3949AB] rounded-full mr-2"></span>
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#newsletter" className="text-white/70 hover:text-white text-sm transition-colors duration-300 flex items-center">
-                  <span className="h-1 w-1 bg-[#3949AB] rounded-full mr-2"></span>
-                  Newsletter
-                </a>
-              </li>
+              {false && (
+                <li>
+                  <a href="#about" className="text-white/70 hover:text-white text-sm transition-colors duration-300 flex items-center">
+                    <span className="h-1 w-1 bg-[#3949AB] rounded-full mr-2"></span>
+                    About
+                  </a>
+                </li>
+              )}
+              {false && (
+                <li>
+                  <a href="#newsletter" className="text-white/70 hover:text-white text-sm transition-colors duration-300 flex items-center">
+                    <span className="h-1 w-1 bg-[#3949AB] rounded-full mr-2"></span>
+                    Newsletter
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
 
@@ -112,9 +116,14 @@ export default function Footer() {
               Contact
             </h4>
             <ul className="space-y-4">
-              <li className="text-white/70 text-sm flex items-start">
+              <li className="text-sm flex items-start">
                 <Mail size={16} className="text-[#3949AB] mr-3 mt-0.5 shrink-0" />
-                <span>ivette@addingtonaiconsulting.com</span>
+                <a
+                  href="mailto:ivette@addingtonaiconsulting.com"
+                  className="text-white/70 hover:text-white transition-colors duration-300"
+                >
+                  ivette@addingtonaiconsulting.com
+                </a>
               </li>
               {false && (
                 <>
