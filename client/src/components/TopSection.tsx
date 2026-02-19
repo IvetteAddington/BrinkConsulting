@@ -1,5 +1,3 @@
-import { Book, Workflow, Target } from "lucide-react";
-
 export default function TopSection() {
   return (
     <section className="relative bg-gradient-to-br from-[#E6D2CA] to-[#F0E4DF] py-20 px-6 overflow-hidden">
@@ -11,69 +9,71 @@ export default function TopSection() {
 
       <div className="max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <div className="inline-block bg-[#3949AB]/10 px-4 py-2 rounded-full mb-5">
-            <p className="uppercase tracking-widest text-sm font-medium text-[#3949AB]">
-              AI Consulting
-            </p>
-          </div>
-
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[#1A1A1A] leading-tight">
-            Transform Your Workflow
+          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-[#1A1A1A] leading-tight">
+            AI is changing work.
             <br />
             <span className="bg-gradient-to-r from-[#3949AB] to-[#6979C9] bg-clip-text text-transparent">
-              With AI That Works
+              Let's get it working for you.
             </span>
           </h1>
 
-          <p className="text-[#1A1A1A]/80 max-w-xl mx-auto mb-10 text-lg">
-            Whether it’s streamlining operations, improving customer experience, or speeding up content creation,
-            AI can help your team do more with less.
-          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="#contact"
+              className="inline-block py-3.5 px-8 bg-gradient-to-r from-[#3949AB] to-[#6979C9] text-white font-medium rounded-lg hover:shadow-lg hover:opacity-90 transition-all duration-300"
+            >
+              Book a Free Strategy Session
+            </a>
+            <a
+              href="#services"
+              className="inline-block py-3.5 px-8 border border-[#3949AB] text-[#3949AB] font-medium rounded-lg hover:bg-[#3949AB]/5 transition-all duration-300"
+            >
+              See What We Do ↓
+            </a>
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div id="services" className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Card 1 */}
-          <div className="bg-white rounded-xl shadow-lg p-8 transform hover:-translate-y-1 transition-all duration-300 border border-gray-100">
-            <div className="bg-gradient-to-br from-[#3949AB] to-[#6979C9] p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 shadow-md">
-              <Book className="text-white h-6 w-6" />
-            </div>
-            <h3 className="font-serif text-xl font-bold mb-3 text-[#1A1A1A]">
-              Learn AI with Confidence
+          <div className="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <h3 className="font-serif text-lg font-bold text-[#1A1A1A] mb-3">
+              Multiply Your Content Reach
             </h3>
-            <p className="text-[#1A1A1A]/70 leading-relaxed">
-              Workshops that make AI feel practical and within reach. 
-              You’ll walk away with the clarity and confidence to start using AI in your everyday work.
+            <p className="text-[#1A1A1A]/70 text-sm leading-relaxed">
+              Your ideas shouldn't live in one place. AI tools take a single piece of content and extend it across email, social, and more — same voice, less repetitive work, far greater reach.
             </p>
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-xl shadow-lg p-8 transform hover:-translate-y-1 transition-all duration-300 border border-gray-100">
-            <div className="bg-gradient-to-br from-[#3949AB] to-[#6979C9] p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 shadow-md">
-              <Workflow className="text-white h-6 w-6" />
-            </div>
-            <h3 className="font-serif text-xl font-bold mb-3 text-[#1A1A1A]">
-              AI Integration
+          <div className="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <h3 className="font-serif text-lg font-bold text-[#1A1A1A] mb-3">
+              Stay Visible in AI Search
             </h3>
-            <p className="text-[#1A1A1A]/70 leading-relaxed">
-              From automating routine tasks to improving everyday workflows, integrate AI in ways
-              that make sense for your tools, your team, and how you already work.
+            <p className="text-[#1A1A1A]/70 text-sm leading-relaxed">
+              Buyers are using LLMs to make decisions. Keep your content and data current so your brand shows up in traditional search and in AI-generated answers.
             </p>
           </div>
 
-          {/* Card 3 (Hidden) */}
-          {false && (
-            <div className="bg-white rounded-xl shadow-lg p-8 transform hover:-translate-y-1 transition-all duration-300 border border-gray-100">
-              <div className="bg-gradient-to-br from-[#3949AB] to-[#6979C9] p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 shadow-md">
-                <Target className="text-white h-6 w-6" />
-              </div>
-              <h3 className="font-serif text-xl font-bold mb-3 text-[#1A1A1A]">
-                Targeted Strategies
-              </h3>
-              <p className="text-[#1A1A1A]/70 leading-relaxed">
-                Implement custom strategies tailored to your specific audience segments, ensuring the right message reaches the right people.
-              </p>
-            </div>
-          )}
+          {/* Card 3 */}
+          <div className="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <h3 className="font-serif text-lg font-bold text-[#1A1A1A] mb-3">
+              Lead With Customer Sentiment
+            </h3>
+            <p className="text-[#1A1A1A]/70 text-sm leading-relaxed">
+              AI continuously monitors what your customers are saying, searching, and responding to, surfacing real-time trends, so your campaigns reflect what the market actually cares about right now, not last quarter.
+            </p>
+          </div>
+
+          {/* Card 4 */}
+          <div className="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <h3 className="font-serif text-lg font-bold text-[#1A1A1A] mb-3">
+              Never Miss the Follow-Up
+            </h3>
+            <p className="text-[#1A1A1A]/70 text-sm leading-relaxed">
+              Most leads don't convert on first contact. AI-powered sequences keep your brand in front of the right people at the right time, nurturing relationships even when you're not in the room.
+            </p>
+          </div>
         </div>
       </div>
     </section>

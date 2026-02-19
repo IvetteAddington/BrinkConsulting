@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import TopSection from "@/components/TopSection";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <TopSection />
+        <ContactSection />
 
         {/* Hidden: About Us Section */}
         {false && (
