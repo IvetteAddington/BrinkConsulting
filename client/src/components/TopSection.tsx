@@ -58,10 +58,10 @@ export default function TopSection() {
           {/* Card 3 */}
           <div className="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
             <h3 className="font-serif text-lg font-bold text-[#1A1A1A] mb-3">
-              Lead With Customer Sentiment
+              Replace Manual Busywork With Automated Systems
             </h3>
             <p className="text-[#1A1A1A]/70 text-sm leading-relaxed">
-              AI continuously monitors what your customers are saying, searching, and responding to, surfacing real-time trends, so your campaigns reflect what the market actually cares about right now, not last quarter.
+              Implement systems that automate repetitive work. Intake forms, data updates, follow-ups. The stuff that takes up your day but doesn't have to.
             </p>
           </div>
 
